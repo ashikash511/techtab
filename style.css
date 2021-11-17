@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+nav {
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0; 
+}
+.navbar-brand {
+    font-weight: 600;
+}
+.nav-link {
+    color: white !important;
+    border-bottom: 1px solid transparent;
+}
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.our-services {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    padding-top: 30px;
+    min-height: 198px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.web:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.app:hover {
+     box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.digital:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+
+/* contact */
+
+.card-body a {
+    text-decoration: none;
+    
+}
